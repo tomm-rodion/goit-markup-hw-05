@@ -577,3 +577,8 @@ margin-bottom: 20px;
     letter-spacing: 0.03em;
     color:var(--second-text-color);
 }
+.project-card:hover{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+ 0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+}
