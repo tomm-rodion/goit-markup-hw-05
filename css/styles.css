@@ -458,17 +458,21 @@ margin-bottom: 20px;
 }
 
 
-.footer-social-list .socisl-link{
+
+
+.footer-social-list .social-link{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-list .socisl-link:hover{
+.footer-social-list .social-link:hover{
     background-color:var(--accent-color);
 }
 
 .footer-social-list .social-icon{
     fill: var(--main-color);
 }
+
+
 
 .footer-logo{
     color: var(--main-color);
