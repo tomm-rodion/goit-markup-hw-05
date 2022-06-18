@@ -49,7 +49,7 @@
         <section class="section-baner">
             <div class="container">
                 <h1 class="baner-text">Эффективные решения для вашего бизнеса</h1>
-                <button class="button-baner" type="button">Заказать услугу</button>
+                <button class="button-baner" data-modal-open type="button">Заказать услугу</button>
             </div>
         </section>
         <!-- block for features -->
@@ -101,9 +101,18 @@
                 <div class="container">
                     <h2  class="section-title works-title">Чем мы занимаемся</h2>
                         <ul class="list works">
-                            <li class="works-item"><img src="./images/img-1.jpg" width="370" height="294" alt="разработка сайтов"></li>
-                            <li class="works-item"><img src="./images/img-2.jpg" width="370" height="294" alt="разработка мобильной версии сайта"></li>
-                            <li class="works-item"><img src="./images/img-3.jpg" width="370" height="294" alt="разработка дизайна сайта "></li>
+                            <li class="works-item">
+                                <img src="./images/img-1.jpg" width="370" height="294" alt="Десктопные приложения">
+                            <div class="supplement-img"><p>Десктопные приложения</p></div>
+                            </li>
+                            <li class="works-item">
+                                <img src="./images/img-2.jpg" width="370" height="294" alt="Мобильные приложения">
+                            <div class="supplement-img"><p>Мобильные приложения</p></div>
+                            </li>
+                            <li class="works-item">
+                                <img src="./images/img-3.jpg" width="370" height="294" alt="Дизайнерские решения">
+                            <div class="supplement-img"><p>Дизайнерские решения</p></div>
+                            </li>
                         </ul>
                 </div>
             </section>
@@ -367,5 +376,16 @@
         </div>
             </div>            
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" data-modal-close class="modal-icon">
+                <svg  width="18px" height="18px">
+                    <use href="./images/symbol-defs.svg#icon-close"></use>
+                </svg>
+        </button>
+            
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
