@@ -430,7 +430,7 @@ justify-content: center ;
 
     transition-property: color, background-color;
     transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon{
     fill: currentColor;
@@ -753,9 +753,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-icon{
 position: absolute;
-top: 0;
-right: 0;
-margin: 8px 8px 0 0;
+top: 8px;
+right: 8px;
+
 width: 30px;
 height: 30px;
 border-radius: 50%;
@@ -764,6 +764,7 @@ background-color: var(--main-color);
 display: flex;
 align-items: center;
 justify-content: center;
+cursor: pointer;
 }
 
 .no-scroll{
